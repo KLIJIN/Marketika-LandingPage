@@ -1,0 +1,79 @@
+.section-plans {
+  background-color: limegreen;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-plans__title, .section-plans__subtitle {
+  text-align: center;
+}
+
+.section-plans__title {
+  font-style: 36px;
+  font-weight: 700;
+  line-height: 51px;
+}
+
+.section-plans__subtitle {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-bottom: 110px;
+}
+
+.section-plans__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-plans__list-item {
+  -ms-flex-preferred-size: 370px;
+      flex-basis: 370px;
+  padding: 45px 60px;
+}
+
+.section-plans__list-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #414141;
+}
+
+.section-plans__list-item-price {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 86px;
+  text-align: center;
+  color: #fe4fa7;
+}
+
+.section-plans__list-item-desc {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.section-plans__list-item-button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.section-plans__list-item.active {
+  background-color: #f6fafd;
+}
+/*# sourceMappingURL=tariffs.css.map */

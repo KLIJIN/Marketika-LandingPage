@@ -1,0 +1,35 @@
+.section-founder {
+  background-color: #f6fafd;
+  padding-top: 34px;
+  .section-inner {
+    display: flex;
+    flex-direction: row;
+  }
+  &__img {
+    align-self: flex-end; //прибиваем элемент к низу
+  }
+  &__content {
+    align-self: center; //выравниваем элемент по центру
+    padding-left: 53px;
+    &-text {
+      @include font-Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 40px;
+    }
+    &-name {
+      margin-top: 35px;
+      @include font-lato;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+    }
+    &-post {
+      @include font-lato;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+}

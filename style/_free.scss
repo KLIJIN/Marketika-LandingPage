@@ -1,0 +1,38 @@
+.section-free {
+  background: linear-gradient(90deg, #fe985b 2.77%, #fe4fa7 100%);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  color: #ffffff;
+  .section-inner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    @include font-lato;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 60px;
+    margin-bottom: 26px;
+  }
+  &__description {
+    @include font-Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: 0 auto 50px;
+  }
+  &__button {
+    display: inline-block;
+    width: 192px;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 15px 50px;
+    background: #ffffff;
+    color: #464646;
+    border-radius: 4px;
+    border: none;
+  }
+}
